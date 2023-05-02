@@ -150,6 +150,7 @@ int main(int argc, char *argv[])
     fclose(fp_compressed);
     burn_tree(root);
     system("clear");
+    system(command.c_str()); 
     cout << "Decompression is complete" << endl;
 }
 

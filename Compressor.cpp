@@ -413,6 +413,7 @@ int main(int argc, char *argv[])
 
     fclose(compressed_fp);
     system("clear");
+    system(command.c_str()); 
     cout << endl
          << "Created compressed file: " << scompressed << endl;
     cout << "Compression is complete" << endl;
